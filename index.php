@@ -99,7 +99,7 @@ if (!isset($_SESSION['username'])) {
         <div class="dropdown text-end">
           <i class="fas fa-circle-user d-block link-body-emphasis text-decoration-none" data-bs-toggle="dropdown" aria-expanded="false"></i>
           <ul class="dropdown-menu text-small">
-            <li><a class="dropdown-item" href="#">Hello <?= $_SESSION['username'] ?></a></li>
+            <li><a class="dropdown-item" href="#">Halo <?= $_SESSION['username'] ?></a></li>
             <li><a class="dropdown-item" href="logout.php">Log Out</a></li>
           </ul>
         </div>
